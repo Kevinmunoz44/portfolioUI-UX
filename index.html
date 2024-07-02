@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>KM Desarrollador de software</title>
+</head>
+
+<body>
+    <!-- Seccion de inicio -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>/KM/</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS Y TECNOLOGIAS</a></li>
+                            <li><a href="#portafolio" onclick="seleccionar(this)">PORTAFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Iconos del menu responsive -->
+                    <div id="icon-nav" onclick="responsiveMenu">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                    <!-- Iconos de la redes sociales -->
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Kevin Muñoz</span> Desarrollador de software</h2>
+                <p class="descripcion">Soy desarrollador de software enfocado en mas en el backendo pero tambein posea conocimientos en frontend, he trabajao con tecnologias como el stack mern tanto para el backend como el frontend, tambien he trabajo con tecnologias como python y java estas para backend, tengo experiencia en aplicaciones web y por ultimo he estudiado y me interesa el analisis de datos.</p>
+                <a href="#portafolio">Ir a portafolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seccion sobre mi -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="./assets/img/YoIMagen.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre mi</p>
+            <h2>Hola, soy <span>Kevin Muñoz</span></h2>
+            <h3>Desarrollador de software</h3>
+            <p>Soy desarrollador de software, actualmente estoy trabajando en una empresa llamada temp tech y estoy ejerciendo mi primer trabajo en esta área, también estudio para ser Análista de Datos y trabajar con todo lo relacionado al mundo de los datos.</p>
+            <a href="#">Descargar CV</a>
+        </div>
+    </section>
+
+    <!-- Seccion de servicios -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Backend</h4>
+                <hr>
+                <p>Especializado en el desarrollo de aplicaciones backend robustas y escalables utilizando Java Spring Boot y Python. Con experiencia en la creación de APIs RESTful, gestión de bases de datos, y optimización del rendimiento del servidor. Habilidad para trabajar con sistemas distribuidos y microservicios, asegurando la integración y el despliegue continuo (CI/CD) para soluciones eficientes y de alta calidad.
+                </p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-html5"></i></span>
+                <h4>Frontend</h4>
+                <hr>
+                <p>Especializado en el desarrollo de interfaces de usuario interactivas y responsivas utilizando HTML, CSS, JavaScript y React. Con experiencia en la creación de aplicaciones web modernas, asegurando una excelente experiencia de usuario (UX) y accesibilidad. Capacidad para implementar diseños atractivos y funcionales, optimizando el rendimiento y la usabilidad en diferentes dispositivos y navegadores.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-database"></i></span>
+                <h4>Analisis de datos</h4>
+                <hr>
+                <p>Especializado en el análisis de datos y generación de insights utilizando Power BI, Python, SQL y Excel. Con experiencia en la creación de visualizaciones de datos interactivas, desarrollo de modelos estadísticos y limpieza de datos. Habilidad para manejar grandes volúmenes de información, realizar consultas complejas y presentar resultados claros y accionables para la toma de decisiones estratégicas.</p>
+            </div>
+        </div>
+        <div class="tecnologias-content">
+            <h2>Tecnologías</h2>
+            <div class="tech-list">
+              <div class="tech-item">
+                <i class="fab fa-html5"></i>
+                <p>HTML</p>
+              </div>
+              <div class="tech-item">
+                <i class="fab fa-css3-alt"></i>
+                <p>CSS</p>
+              </div>
+              <div class="tech-item">
+                <i class="fab fa-js"></i>
+                <p>JavaScript</p>
+              </div>
+              <div class="tech-item">
+                <i class="fab fa-react"></i>
+                <p>ReactJS</p>
+              </div>
+              <div class="tech-item">
+                <i class="fab fa-python"></i>
+                <p>Python</p>
+              </div>
+              <div class="tech-item">
+                <i class="fab fa-node-js"></i>
+                <p>NodeJS</p>
+              </div>
+              <div class="tech-item">
+                <i class="fab fa-java"></i>
+                <p>Java</p>
+              </div>
+              <div class="tech-item">
+                <i class="fab fa-github"></i>
+                <p>Git and GitHub</p>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <!-- Seccion habilidades -->
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES</h3>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Promob</p>
+                <span class="porcentaje">95%</span>
+            </div>
+            <div class="barra">
+                <div id="promob" class="barra-progreso1"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Illustrator</p>
+                <span class="porcentaje">80%</span>
+            </div>
+            <div class="barra">
+                <div id="illustrator" class="barra-progreso2"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Autocad</p>
+                <span class="porcentaje">30%</span>
+            </div>
+            <div class="barra">
+                <div id="autocad" class="barra-progreso3"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Photoshop</p>
+                <span class="porcentaje">70%</span>
+            </div>
+            <div class="barra">
+                <div id="ps" class="barra-progreso4"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Seccion de portafolio -->
+    <section id="portafolio">
+        <h3 class="titulo-seccion">MIS PROYECTOS</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="./assets/img/Encriptador_palabras.png" alt="">
+                <div class="info">
+                    <h4>Encriptador de palabras</h4>
+                    <p>Frontend</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="./assets/img/Star_wars.png" alt="">
+                <div class="info">
+                    <h4>Album de Star Wars</h4>
+                    <p>Frontend</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="./assets/img/WeatherApp.png" alt="">
+                <div class="info">
+                    <h4>Weather App</h4>
+                    <p>Frontend</p>
+                </div>
+            </div>
+        </div>
+        
+
+    </section>
+
+    <!-- Seccion de contacto -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactame</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre completo" class="input-mitad">
+                    <input type="text" placeholder="Direccion de email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu mensaje ..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- Seccion de footer -->
+    <footer>
+        <p>Todos los derechos reservados - 2024</p>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
