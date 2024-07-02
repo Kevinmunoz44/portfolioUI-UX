@@ -380,7 +380,7 @@ html{
         width: 0;
     }
     100% {
-        width: 80%;
+        width: 70%;
     }
 }
 
@@ -389,7 +389,7 @@ html{
         width: 0;
     }
     100% {
-        width: 80%;
+        width: 50%;
     }
 }
 
@@ -398,18 +398,10 @@ html{
         width: 0;
     }
     100% {
-        width: 30%;
+        width: 40%;
     }
 }
 
-@keyframes progreso4{
-    0% {
-        width: 0;
-    }
-    100% {
-        width: 70%;
-    }
-}
 
 /* Seccion de portafolio */
 #portafolio{
