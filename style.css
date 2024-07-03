@@ -69,7 +69,7 @@ html{
 }
 
 #inicio .contenido header .contenido-header .seleccionado{
-    color: #ff5080;
+    color: #ffffff;
 }
 
 #inicio .contenido .presentacion{
@@ -81,6 +81,7 @@ html{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 50px;
 }
 
 #incio .contenido .presentacion .bienvenida{

@@ -32,9 +32,9 @@ function efectoHabilidades(){
     var skills = document.getElementById("skills");
     var distancia_skills = window.innerHeight = skills.getBoundingClientRect().top;
     if(distancia_skills >= 300){
-        document.getElementById("promob").classList.add("barra-progreso1")
-        document.getElementById("illustrator").classList.add("barra-progreso2")
-        document.getElementById("autocad").classList.add("barra-progreso3")
-        document.getElementById("ps").classList.add("barra-progreso4")
+        document.getElementById("stackmern").classList.add("barra-progreso1")
+        document.getElementById("javaspring").classList.add("barra-progreso2")
+        document.getElementById("python").classList.add("barra-progreso3")
+        // document.getElementById("ps").classList.add("barra-progreso4")
     }
 }
